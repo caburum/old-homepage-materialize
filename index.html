@@ -4,8 +4,6 @@
 <head>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,26 +15,27 @@
 <body>
     <header>
         <nav class="grey darken-4" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Calum Dingwall</a>
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo">Calum Dingwall</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/">HOME</a></li>
                     <li><a href="https://blog.calum.gq/author/caburum">ABOUT</a></li>
                     <li><a href="https://blog.calum.gq/contact">CONTACT</a></li>
-                    <li><a href="https://games.calum.gq">GAMES</a></li>
-                    <li><a href="https://github.calum.gq">GITHUB</a></li>
-                    <li><a href="https://blog.calum.gq">BLOG</a></li>
-                </ul>
-                <ul id="nav-mobile" class="sidenav">
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="https://blog.calum.gq/author/caburum">ABOUT</a></li>
-                    <li><a href="https://blog.calum.gq/contact">CONTACT</a></li>
-                    <li><a href="https://games.calum.gq">GAMES</a></li>
+                    <li><a href="https://calum.gq/games">GAMES</a></li>
                     <li><a href="https://github.calum.gq">GITHUB</a></li>
                     <li><a href="https://blog.calum.gq">BLOG</a></li>
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
         </nav>
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="/">HOME</a></li>
+            <li><a href="https://blog.calum.gq/author/caburum">ABOUT</a></li>
+            <li><a href="https://blog.calum.gq/contact">CONTACT</a></li>
+            <li><a href="https://games.calum.gq">GAMES</a></li>
+            <li><a href="https://github.calum.gq">GITHUB</a></li>
+            <li><a href="https://blog.calum.gq">BLOG</a></li>
+         </ul>
     </header>
     <main>
         <div class="section no-pad-bot" id="index-banner">
@@ -52,10 +51,14 @@
     <footer class="page-footer black">
         <div class="footer-copyright">
             <div class="container">
-                Made by <a href="https://calum.gq" class="white-text">Calum Dingwall</a>
+                Made by <a href="https://calum.gq" class="white-text">Calum Dingwall</a>. Please email <a href="mailto:webmaster@calum.gq" class="white-text">webmaster@calum.gq</a> if there are any problems.
             </div>
         </div>
     </footer>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

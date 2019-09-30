@@ -1,0 +1,8 @@
+# Rule 2
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /*.css$
+Disallow: /*.css$
+
+Sitemap: http://calum.gq/sitemap.xml
