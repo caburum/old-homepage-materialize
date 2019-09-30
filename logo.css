@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo-above {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -350%);
+    opacity: 0;
+    animation: fade-anim 2s ease forwards;
+}
+
+#logo-under {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    opacity: 0;
+    animation: fade-anim 2s ease forwards 3s;
+}
+
+/* C */
+#logo path:nth-child(2) {
+    stroke-dasharray: 364.8437805175781px;
+    stroke-dashoffset: 364.8437805175781px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+/* A */
+#logo path:nth-child(3) {
+    stroke-dasharray: 451.5826110839844px;
+    stroke-dashoffset: 451.5826110839844px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+/* L */
+#logo path:nth-child(4) {
+    stroke-dasharray: 242.01602172851562px;
+    stroke-dashoffset: 242.01602172851562px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+/* U */
+#logo path:nth-child(5) {
+    stroke-dasharray: 393.3800354003906px;
+    stroke-dashoffset: 393.3800354003906px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+/* M */
+#logo path:nth-child(6) {
+    stroke-dasharray: 616.8060913085938px;
+    stroke-dashoffset: 616.8060913085938px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+/* . */
+#logo path:nth-child(7) {
+    stroke-dasharray: 50.657867431640625px;
+    stroke-dashoffset: 50.657867431640625px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+/* G */
+#logo path:nth-child(8) {
+    stroke-dasharray: 569.0712280273438px;
+    stroke-dashoffset: 569.0712280273438px;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+
+/* Q */
+#logo path:nth-child(9) {
+    stroke-dasharray: 492.99798583984375px;
+    stroke-dashoffset: 492.99798583984375px;
+    animation: line-anim 2s ease forwards 2.4s;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0px;
+
+    }
+}
+
+@keyframes fade-anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
