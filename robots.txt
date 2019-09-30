@@ -1,8 +1,8 @@
-# Rule 2
+# Hide code stuff
 User-agent: *
 Allow: /
 Disallow: /404.html
 Disallow: /*.css$
-Disallow: /*.css$
+Disallow: /*.js$
 
 Sitemap: http://calum.gq/sitemap.xml
