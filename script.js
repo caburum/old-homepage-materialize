@@ -26,8 +26,8 @@ document.querySelector('#codeEffect').addEventListener('click', function() {
         document.querySelectorAll('.container').forEach(function(el) {
             el.style.color = '#FFFFFF';
         });
-        document.querySelectorAll('svg').forEach(function(el) {
-            el.style.stroke = 'white';
+        document.querySelectorAll('svg, path').forEach(function(el) {
+            el.style.stroke = '#FFFFFF';
         });
         makeRainCode();
     }
