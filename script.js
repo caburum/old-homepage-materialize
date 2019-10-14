@@ -9,8 +9,6 @@ if ( window.addEventListener ) {
         kkeys.push( e.keyCode );
 
         if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-            var audio = document.getElementById("mgsalert");
-            audio.play();
             alert('kept you waitin, huh?');
             kkeys = [];
         }
